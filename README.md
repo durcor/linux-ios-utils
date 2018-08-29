@@ -10,18 +10,12 @@ I have had problems mounting more than 4 apps at any given time. In order to ens
 # Usage
 First, clone this git repo by opening a terminal and typing ```git clone hts@ssh.gitgud.io:t/linux-ios-utils.git```
 
-Then, enter the directory by typing
+Then, enter the directory by typing ```cd linux-ios-utils```
 
-```cd linux-ios-utils```
-
-If you want to mount your iOS device, first open the ```imount``` file in your favorite text editor and uncomment any of the apps you plan to mount. After you have done that, simply run the script by typing
-
-```./imount```
+If you want to mount your iOS device, first open the ```imount``` file in your favorite text editor and uncomment any of the apps you plan to mount. After you have done that, simply run the script by typing ```./imount```
 
 The apps you chose will now be mounted to ```/mnt/iphone```.
 
-If you want to unmount your iphone, such as when you want to unplug your iphone from your computer, just type
-
-```./iumount```
+If you want to unmount your iphone, such as when you want to unplug your iphone from your computer, just type ```./iumount```
 
 I have also included a script called ```irefresh```, which will kill and restart the usbmuxd daemon when the script is executed, which will start charging your phone if it is not charging when you plug it into your computer. 
