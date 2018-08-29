@@ -44,4 +44,4 @@ sudo chown $USER /mnt/ios
 #ifuse --documents com.apple.iMovie /mnt/ios/imovie &
 #mkdir /mnt/ios/pacemaker
 #ifuse --documents com.pacemakermusic.pacemaker.001 /mnt/ios/pacemaker &
-notify-send "Your ios has been mounted at /mnt/ios/"
+notify-send "Your iOS device has been mounted at /mnt/ios/"
