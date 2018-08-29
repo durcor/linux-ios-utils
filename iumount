@@ -2,6 +2,6 @@
 
 sudo umount /mnt/iphone/*
 rmdir /mnt/iphone/* &
-killall usbmuxd
+sudo killall usbmuxd
 sudo rmdir /mnt/iphone &
 notify-send "Your iphone is now unmounted"

@@ -1,17 +1,19 @@
 #!/bin/sh
 
+sudo killall usbmuxd
+sleep 0.1
 sudo usbmuxd -U usbmux
-sleep 1
+sleep 0.1
 sudo mkdir /mnt/iphone
 sudo chown $USER /mnt/iphone
 mkdir /mnt/iphone/localstorage
-ifuse --documents se.eberl.localstorage /mnt/iphone/localstorage
+ifuse --documents se.eberl.localstorage /mnt/iphone/localstorage &
 mkdir /mnt/iphone/vlc
-ifuse --documents org.videolan.vlc-ios /mnt/iphone/vlc
+ifuse --documents org.videolan.vlc-ios /mnt/iphone/vlc &
 mkdir /mnt/iphone/edhita
-ifuse --documents com.bornneet.Edhita /mnt/iphone/edhita
+ifuse --documents com.bornneet.Edhita /mnt/iphone/edhita &
 mkdir /mnt/iphone/mupdf
-ifuse --documents com.artifex.mupdf /mnt/iphone/mupdf
+ifuse --documents com.artifex.mupdf /mnt/iphone/mupdf &
 #mkdir /mnt/iphone/ivim
 #ifuse --documents com.terrychou.ivim /mnt/iphone/ivim
 #mkdir /mnt/iphone/rssmob
