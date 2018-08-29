@@ -4,44 +4,44 @@ sudo killall usbmuxd
 sleep 0.1
 sudo usbmuxd -U usbmux
 sleep 0.1
-sudo mkdir /mnt/iphone
-sudo chown $USER /mnt/iphone
-#mkdir /mnt/iphone/localstorage
-#ifuse --documents se.eberl.localstorage /mnt/iphone/localstorage &
-#mkdir /mnt/iphone/vlc
-#ifuse --documents org.videolan.vlc-ios /mnt/iphone/vlc &
-#mkdir /mnt/iphone/edhita
-#ifuse --documents com.bornneet.Edhita /mnt/iphone/edhita &
-#mkdir /mnt/iphone/mupdf
-#ifuse --documents com.artifex.mupdf /mnt/iphone/mupdf &
-#mkdir /mnt/iphone/ivim
-#ifuse --documents com.terrychou.ivim /mnt/iphone/ivim
-#mkdir /mnt/iphone/rssmob
-#ifuse --documents com.ipanfilov.RSS-Mobile /mnt/iphone/rssmobile
-#mkdir /mnt/iphone/minikeepass
-#ifuse --documents com.jflan.MiniKeePass /mnt/iphone/minikeepass
-#mkdir /mnt/iphone/wire
-#ifuse --documents com.wearezeta.zclient.ios /mnt/iphone/wire
-#mkdir /mnt/iphone/firefox
-#ifuse --documents org.mozilla.ios.Firefox /mnt/iphone/firefox
-#mkdir /mnt/iphone/openvpn
-#ifuse --documentsnet.openvpn.connect.app /mnt/iphone/openvpn
-#mkdir /mnt/iphone/minecraft
-#ifuse --documents com.mojang.minecraftpe /mnt/iphone/minecraft
-#mkdir /mnt/iphone/nextcloud
-#ifuse --documents it.twsweb.Nextcloud /mnt/iphone/nextcloud
-#mkdir /mnt/iphone/merlin
-#ifuse --documents com.google.andrews.schreiber1.Merlin /mnt/iphone/merlin
-#mkdir /mnt/iphone/advantage
-#ifuse --documents com.bridgetree.Advantage /mnt/iphone/advantage
-#mkdir /mnt/iphone/redbrowser
-#ifuse --documents com.gplexdb.azulbrowse /mnt/iphone/redbrowser
-#mkdir /mnt/iphone/mega
-#ifuse --documents mega.ios /mnt/iphone/mega
-#mkdir /mnt/iphone/pass
-#ifuse --documents me.mssun.passforios /mnt/iphone/pass
-#mkdir /mnt/iphone/imovie
-#ifuse --documents com.apple.iMovie /mnt/iphone/imovie
-#mkdir /mnt/iphone/pacemaker
-#ifuse --documents com.pacemakermusic.pacemaker.001 /mnt/iphone/pacemaker
-notify-send "Your iphone has been mounted at /mnt/iphone/"
+sudo mkdir /mnt/ios
+sudo chown $USER /mnt/ios
+#mkdir /mnt/ios/localstorage
+#ifuse --documents se.eberl.localstorage /mnt/ios/localstorage &
+#mkdir /mnt/ios/vlc
+#ifuse --documents org.videolan.vlc-ios /mnt/ios/vlc &
+#mkdir /mnt/ios/edhita
+#ifuse --documents com.bornneet.Edhita /mnt/ios/edhita &
+#mkdir /mnt/ios/mupdf
+#ifuse --documents com.artifex.mupdf /mnt/ios/mupdf &
+#mkdir /mnt/ios/ivim
+#ifuse --documents com.terrychou.ivim /mnt/ios/ivim &
+#mkdir /mnt/ios/rssmob
+#ifuse --documents com.ipanfilov.RSS-Mobile /mnt/ios/rssmobile &
+#mkdir /mnt/ios/minikeepass
+#ifuse --documents com.jflan.MiniKeePass /mnt/ios/minikeepass &
+#mkdir /mnt/ios/wire
+#ifuse --documents com.wearezeta.zclient.ios /mnt/ios/wire &
+#mkdir /mnt/ios/firefox
+#ifuse --documents org.mozilla.ios.Firefox /mnt/ios/firefox &
+#mkdir /mnt/ios/openvpn
+#ifuse --documentsnet.openvpn.connect.app /mnt/ios/openvpn &
+#mkdir /mnt/ios/minecraft
+#ifuse --documents com.mojang.minecraftpe /mnt/ios/minecraft &
+#mkdir /mnt/ios/nextcloud
+#ifuse --documents it.twsweb.Nextcloud /mnt/ios/nextcloud &
+#mkdir /mnt/ios/merlin
+#ifuse --documents com.google.andrews.schreiber1.Merlin /mnt/ios/merlin &
+#mkdir /mnt/ios/advantage
+#ifuse --documents com.bridgetree.Advantage /mnt/ios/advantage &
+#mkdir /mnt/ios/redbrowser
+#ifuse --documents com.gplexdb.azulbrowse /mnt/ios/redbrowser &
+#mkdir /mnt/ios/mega
+#ifuse --documents mega.ios /mnt/ios/mega &
+#mkdir /mnt/ios/pass
+#ifuse --documents me.mssun.passforios /mnt/ios/pass &
+#mkdir /mnt/ios/imovie
+#ifuse --documents com.apple.iMovie /mnt/ios/imovie &
+#mkdir /mnt/ios/pacemaker
+#ifuse --documents com.pacemakermusic.pacemaker.001 /mnt/ios/pacemaker &
+notify-send "Your ios has been mounted at /mnt/ios/"
