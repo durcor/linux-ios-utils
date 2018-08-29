@@ -8,9 +8,7 @@ I have had problems mounting more than 4 apps at any given time. In order to ens
 * [libimobiledevice](https://www.libimobiledevice.org/)
 
 # Usage
-First, clone this git repo by opening a terminal and typing
-
-```git clone hts@ssh.gitgud.io:t/linux-ios-utils.git```
+First, clone this git repo by opening a terminal and typing ```git clone hts@ssh.gitgud.io:t/linux-ios-utils.git```
 
 Then, enter the directory by typing
 
