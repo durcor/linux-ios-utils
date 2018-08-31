@@ -19,3 +19,5 @@ The apps you chose will now be mounted to ```/mnt/ios```.
 If you want to unmount your iOS device, such as when you want to unplug it from your computer, just type ```./iumount```
 
 I have also included a script called ```irefresh```, which will kill and restart the usbmuxd daemon when the script is executed, which will start charging your phone if it is not charging when you plug it into your computer. 
+
+Alternatively, if you want to be able to run the ```imount```, ```iumount```, and ```irefresh``` scripts from any directory or via a program launcher, like dmenu, rofi, or whatever you desktop environment has, you can run the install script with ```sh install```.

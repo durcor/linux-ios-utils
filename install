@@ -1,0 +1,4 @@
+#!/bin/sh
+sudo cp imount /usr/bin/
+sudo cp iumount /usr/bin/
+sudo cp irefresh /usr/bin/
