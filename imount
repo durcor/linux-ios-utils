@@ -3,21 +3,21 @@
 sudo killall usbmuxd
 sleep 0.1
 sudo usbmuxd -U usbmux
-sleep 0.1
+sleep 0.2
 sudo mkdir /mnt/ios
 sudo chown $USER /mnt/ios
-#mkdir /mnt/ios/localstorage
-#ifuse --documents se.eberl.localstorage /mnt/ios/localstorage &
-#mkdir /mnt/ios/vlc
-#ifuse --documents org.videolan.vlc-ios /mnt/ios/vlc &
-#mkdir /mnt/ios/edhita
-#ifuse --documents com.bornneet.Edhita /mnt/ios/edhita &
-#mkdir /mnt/ios/mupdf
-#ifuse --documents com.artifex.mupdf /mnt/ios/mupdf &
+mkdir /mnt/ios/localstorage
+ifuse --documents se.eberl.localstorage /mnt/ios/localstorage &
+mkdir /mnt/ios/vlc
+ifuse --documents org.videolan.vlc-ios /mnt/ios/vlc &
+mkdir /mnt/ios/edhita
+ifuse --documents com.bornneet.Edhita /mnt/ios/edhita &
+mkdir /mnt/ios/mupdf
+ifuse --documents com.artifex.mupdf /mnt/ios/mupdf &
 #mkdir /mnt/ios/ivim
 #ifuse --documents com.terrychou.ivim /mnt/ios/ivim &
-#mkdir /mnt/ios/rssmobile
-#ifuse --documents com.ipanfilov.RSS-Mobile /mnt/ios/rssmobile &
+mkdir /mnt/ios/rssmobile
+ifuse --documents com.ipanfilov.RSS-Mobile /mnt/ios/rssmobile &
 #mkdir /mnt/ios/minikeepass
 #ifuse --documents com.jflan.MiniKeePass /mnt/ios/minikeepass &
 #mkdir /mnt/ios/wire
