@@ -4,7 +4,7 @@ sudo killall usbmuxd
 sudo usbmuxd -U usbmux
 sudo mkdir /mnt/ios
 sudo chown $USER /mnt/ios
-sleep 0.15
+sleep 0.25
 mkdir /mnt/ios/localstorage
 ifuse --documents se.eberl.localstorage /mnt/ios/localstorage &
 mkdir /mnt/ios/vlc
