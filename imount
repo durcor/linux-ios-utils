@@ -2,6 +2,7 @@
 
 sudo killall usbmuxd
 sudo usbmuxd -U usbmux
+sleep 0.1
 sudo mkdir /mnt/ios
 sudo chown $USER /mnt/ios
 #mkdir /mnt/ios/localstorage
