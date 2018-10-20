@@ -5,6 +5,8 @@ sudo usbmuxd -U usbmux
 sleep 0.1
 sudo mkdir /mnt/ios
 sudo chown $USER /mnt/ios
+mkdir /mnt/ios/main
+ifuse /mnt/ios/main
 #mkdir /mnt/ios/localstorage
 #ifuse --documents se.eberl.localstorage /mnt/ios/localstorage &
 #mkdir /mnt/ios/vlc
@@ -45,4 +47,4 @@ sudo chown $USER /mnt/ios
 #ifuse --documents com.apple.iMovie /mnt/ios/imovie &
 #mkdir /mnt/ios/pacemaker
 #ifuse --documents com.pacemakermusic.pacemaker.001 /mnt/ios/pacemaker &
-notify-send "Your iOS device has been mounted at /mnt/ios/"
+notify-send "iOS device mounted at /mnt/ios/"
