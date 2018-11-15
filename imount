@@ -47,4 +47,5 @@ ifuse /mnt/ios/main
 #ifuse --documents com.apple.iMovie /mnt/ios/imovie &
 #mkdir /mnt/ios/pacemaker
 #ifuse --documents com.pacemakermusic.pacemaker.001 /mnt/ios/pacemaker &
+wait
 notify-send "iOS device mounted at /mnt/ios/"

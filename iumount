@@ -4,4 +4,5 @@ sudo umount /mnt/ios/*
 rmdir /mnt/ios/* &
 sudo killall usbmuxd
 sudo rmdir /mnt/ios &
+wait
 notify-send "iOS device unmounted"
