@@ -14,9 +14,7 @@ You can always jailbreak your iOS device to get around this limitation though, a
 * [libimobiledevice](https://www.libimobiledevice.org/)
 
 ## Usage
-First, clone this git repo by opening a terminal and typing `git clone https://gitgud.io/t/linux-ios-utils.git`
-
-Then, enter the directory by typing `cd linux-ios-utils`
+First, clone this git repo and enter the repo with `git clone https://gitgud.io/t/linux-ios-utils.git ; cd linux-ios-utils`
 
 If you want to mount your iOS device, first open the `imount` file in your favorite text editor and uncomment any of the apps you plan to mount.
 After you have done that, simply run the script by typing `sh imount`
@@ -25,6 +23,4 @@ The apps you chose will now be mounted to `/mnt/ios`.
 
 If you want to unmount your iOS device, such as when you want to unplug it from your computer, just type `sh iumount`
 
-I have also included a script called `irefresh`, which will kill and restart the usbmuxd daemon when the script is executed, which will start charging your phone if it is not charging when you plug it into your computer.
-
-Alternatively, if you want to be able to run the `imount`, `iumount`, and `irefresh` scripts from any directory or via a program launcher, like dmenu, rofi, or whatever your desktop environment has, you can run the install script with `sh install` or you can place these scripts anywhere else in your path, such as your personal executable directory, if you have one.
+Alternatively, if you want to be able to run the `imount` and `iumount` scripts from any directory or via a program launcher, like dmenu, rofi, or whatever your desktop environment has, you can run the install script with `sh install` or you can place these scripts anywhere else in your path, such as your personal executable directory, if you have one.
