@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Infinitely try to re-mount iphone until it works or you realize you need to accept the "Trust This Computer" dialog box or you realize you need to actually plug in the phone
-for (( i=0; i<1; i--))
+for ((;;))
 do
         if [ ! -d "/mnt/ios/main/DCIM" ]
         then
